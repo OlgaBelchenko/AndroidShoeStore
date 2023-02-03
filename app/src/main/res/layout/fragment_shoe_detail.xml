@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ShoeDetailFragment">
+
+        <TextView
+            android:id="@+id/shoe_name_label"
+            style="@style/ShoeDetailLabelTextStyle"
+            android:layout_marginTop="@dimen/large_margin"
+            android:text="@string/shoe_name_label" />
+
+        <EditText
+            android:id="@+id/shoe_name_input"
+            style="@style/ShoeDetailInputFieldStyle"
+            android:layout_marginTop="@dimen/standard_margin" />
+
+        <TextView
+            android:id="@+id/company_label"
+            style="@style/ShoeDetailLabelTextStyle"
+            android:layout_marginTop="@dimen/large_margin"
+            android:text="@string/company_label" />
+
+        <EditText
+            android:id="@+id/company_input"
+            style="@style/ShoeDetailInputFieldStyle"
+            android:layout_marginTop="@dimen/standard_margin" />
+
+        <TextView
+            android:id="@+id/shoe_size_label"
+            style="@style/ShoeDetailLabelTextStyle"
+            android:layout_marginTop="@dimen/large_margin"
+            android:text="@string/shoe_size_label" />
+
+        <EditText
+            android:id="@+id/shoe_size_input"
+            style="@style/ShoeDetailInputFieldStyle"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/description_label"
+            style="@style/ShoeDetailLabelTextStyle"
+            android:layout_marginTop="@dimen/large_margin"
+            android:text="@string/description_label" />
+
+        <EditText
+            android:id="@+id/description_input"
+            style="@style/ShoeDetailInputFieldStyle"
+            android:layout_marginTop="@dimen/standard_margin" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_button"
+            android:layout_marginTop="@dimen/large_margin"
+            style="@style/ButtonStyle" />
+
+
+        <Button
+            android:id="@+id/cancel_button"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/standard_margin"
+            android:backgroundTint="@android:color/tertiary_text_light"
+            android:text="@string/cancel_button" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_label">Введите электронную почту:</string>
+    <string name="password_label">Введите пароль:</string>
+    <string name="login_button">Войти</string>
+    <string name="signup_button">Зарегистрироваться</string>
+    <string name="welcome_text">Это наше приложение Обувной Магазин!</string>
+    <string name="welcome_header">ДОБРО ПОЖАЛОВАТЬ!</string>
+    <string name="instructions_button">Инструкции</string>
+    <string name="instruction_header">Инструкция!</string>
+    <string name="shoe_list_button">Список обуви</string>
+    <string name="instruction_text">Это инструкция для работы с приложением!\nНажмите на кнопку \"СПИСОК ОБУВИ\", чтобы перейти на следующий экран.</string>
+    <string name="shoe_name_label">Название обуви:</string>
+    <string name="company_label">Фирма:</string>
+    <string name="shoe_size_label">Размер:</string>
+    <string name="description_label">Описание:</string>
+    <string name="cancel_button">Отменить</string>
+    <string name="save_button">Сохранить</string>
+    <string name="log_out">Выйти</string>
+    <string name="fill_all_fields">Пожалуйста, заполните все поля!</string>
+    <string name="shoe_item_text">Название: %s\nФирма: %s\nРазмер: %.1f\nОписание: %s</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name" translatable="false">ShoeStore</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="email_label">Enter your email:</string>
+    <string name="email_input_hint" translatable="false">email@example.com</string>
+    <string name="password_label">Enter your password:</string>
+    <string name="password_input_hint" translatable="false">********</string>
+    <string name="login_button">Log in</string>
+    <string name="signup_button">Sign up</string>
+    <string name="welcome_text">This is our Shoe Store app!</string>
+    <string name="welcome_header">WELCOME!</string>
+    <string name="instructions_button">Instructions</string>
+    <string name="instruction_header">Instructions!</string>
+    <string name="instruction_text">This is the instruction!\nClick "SHOE LIST" button and proceed to the next screen!</string>
+    <string name="shoe_list_button">Shoe list</string>
+    <string name="shoe_name_label">Shoe name:</string>
+    <string name="company_label">Company:</string>
+    <string name="shoe_size_label">Shoe size:</string>
+    <string name="description_label">Description:</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+    <string name="log_out">Log out</string>
+    <string name="shoe_item_text">Name: %s\nCompany: %s\nSize: %.1f\nDescription: %s</string>
+    <string name="fill_all_fields">Please fill all fields!</string>
+</resources>
